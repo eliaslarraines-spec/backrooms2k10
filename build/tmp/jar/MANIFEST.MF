@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: backrooms2k10
+Specification-Vendor: Backrooms 2K10 Team
+Specification-Version: 1
+Implementation-Title: mod
+Implementation-Version: 1.0.0
+Implementation-Vendor: Backrooms 2K10 Team
+Implementation-Timestamp: 2026-10-29T19:50:58-0300
+
