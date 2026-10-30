@@ -22,3 +22,10 @@ description='''Backrooms 2K10 - Sistema avanzado de portales y dimension Backroo
     versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.backrooms2k10]]
+    modId="immersive_portals"
+    mandatory=false
+    versionRange="[3.3.7,)"
+    ordering="NONE"
+    side="BOTH"

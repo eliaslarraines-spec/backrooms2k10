@@ -1,7 +1,10 @@
 package net.backrooms2k10;
 
+import net.backrooms2k10.block.ModBlocks;
 import net.backrooms2k10.core.ModConfig;
 import net.backrooms2k10.core.ModSounds;
+import net.backrooms2k10.item.ModCreativeTabs;
+import net.backrooms2k10.item.ModItems;
 import net.backrooms2k10.network.ModNetworking;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,19 +24,26 @@ public class Backrooms2K10 {
     public Backrooms2K10() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Register sounds
+        // Registrar sonidos
         ModSounds.SOUNDS.register(modEventBus);
 
-        // Register server configuration
+        // Registrar bloques e items
+        ModBlocks.BLOCKS.register(modEventBus);
+        ModItems.ITEMS.register(modEventBus);
+
+        // Registrar pestaña creativa
+        ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+
+        // Registrar configuración
         ModLoadingContext.get().registerConfig(Type.SERVER, ModConfig.SPEC);
 
-        // Register lifecycle events
+        // Ciclo de vida
         modEventBus.addListener(this::commonSetup);
 
-        // Register forge bus
+        // Eventos forge
         MinecraftForge.EVENT_BUS.register(this);
 
-        LOGGER.info("[Backrooms] Mod inicializado con nueva arquitectura modular y procedural.");
+        LOGGER.info("[Backrooms] Mod inicializado con arquitectura limpia y modular.");
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

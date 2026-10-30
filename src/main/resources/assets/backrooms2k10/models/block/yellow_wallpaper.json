@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "backrooms2k10:block/yellow_wallpaper"
+  }
+}
+

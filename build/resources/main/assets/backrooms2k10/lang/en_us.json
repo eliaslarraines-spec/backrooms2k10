@@ -1,3 +1,8 @@
 {
-  "itemGroup.backrooms2k10": "Backrooms 2K10"
+  "itemGroup.backrooms2k10": "Backrooms 2K10",
+  "block.backrooms2k10.yellow_wallpaper": "Yellow Wallpaper",
+  "block.backrooms2k10.backrooms_carpet": "Backrooms Carpet",
+  "block.backrooms2k10.office_ceiling": "Office Ceiling",
+  "block.backrooms2k10.fluorescent_lamp": "Fluorescent Lamp",
+  "subtitles.backrooms2k10.fluorescent_buzz": "Fluorescent lamp buzzes"
 }

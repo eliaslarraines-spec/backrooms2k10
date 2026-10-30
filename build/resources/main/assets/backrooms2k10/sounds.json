@@ -1,55 +1,10 @@
 {
-  "portal_activate": {
+  "fluorescent_buzz": {
     "category": "block",
-    "subtitle": "subtitles.backrooms2k10.portal_activate",
+    "subtitle": "subtitles.backrooms2k10.fluorescent_buzz",
     "sounds": [
       {
-        "name": "minecraft:block/conduit/activate",
-        "type": "event",
-        "pitch": 0.75,
-        "volume": 0.9
-      },
-      {
-        "name": "minecraft:block/beacon/activate",
-        "type": "event",
-        "pitch": 0.6,
-        "volume": 0.8
-      }
-    ]
-  },
-  "portal_deactivate": {
-    "category": "block",
-    "subtitle": "subtitles.backrooms2k10.portal_deactivate",
-    "sounds": [
-      {
-        "name": "minecraft:block/beacon/deactivate",
-        "type": "event",
-        "pitch": 0.7,
-        "volume": 0.9
-      }
-    ]
-  },
-  "portal_travel": {
-    "category": "player",
-    "subtitle": "subtitles.backrooms2k10.portal_travel",
-    "sounds": [
-      {
-        "name": "minecraft:entity/enderman/teleport",
-        "type": "event",
-        "pitch": 0.85,
-        "volume": 1.0
-      }
-    ]
-  },
-  "portal_error": {
-    "category": "block",
-    "subtitle": "subtitles.backrooms2k10.portal_error",
-    "sounds": [
-      {
-        "name": "minecraft:block/chest/locked",
-        "type": "event",
-        "pitch": 0.5,
-        "volume": 1.0
+        "name": "backrooms2k10:block/fluorescent_buzz"
       }
     ]
   }
